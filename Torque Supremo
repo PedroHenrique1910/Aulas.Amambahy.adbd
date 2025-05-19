@@ -1,0 +1,7 @@
+CREATE TABLE Clientes (
+    cliente_id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    contato VARCHAR(20),
+    cpf CHAR(11) UNIQUE,
+    placa_carro VARCHAR(10) UNIQUE
+);
